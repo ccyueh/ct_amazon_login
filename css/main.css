@@ -1,0 +1,106 @@
+body {
+  overflow-x: hidden;
+}
+
+/*
+header {
+  margin-top: -35px;
+  height: 100px;
+}
+*/
+
+img {
+  max-width: 132px;
+  display: block;
+  margin: 20px auto;
+}
+
+.card {
+  padding: 25px;
+}
+
+label {
+  color: #000;
+  font-weight: bold;
+  font-size: 80%;
+}
+
+label>a {
+  font-weight: normal;
+}
+
+#forgot-password {
+  float: right;
+  font-size: 80%;
+  margin-top: 0.3em;
+}
+
+input {
+  margin-top: -5px;
+}
+
+.fa-caret-down {
+  opacity: 0.7;
+}
+
+.btn {
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.4), rgba(255,255,255,0.1));
+  font-size: 85%;
+  border: 1px solid gray;
+}
+
+hr {
+  margin-top: 0.7rem;
+}
+
+form>p {
+  font-size: 70%;
+  margin-top: 10px;
+}
+
+.form-check {
+  margin-top: 20px;
+}
+
+.form-check-label {
+  font-weight: normal;
+}
+
+#new-to {
+  margin-top: 25px;
+  color: #666;
+  text-align: center;
+  font-size: 90%;
+}
+
+.btn-light {
+  background-color: #ddd;
+}
+
+footer {
+  background-color: #eee;
+  background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0.8), rgba(255,255,255,0.6));
+  margin-top: 30px;
+  border-top: 2px solid #ddd;
+  text-align: center;
+  font-size: 70%;
+  color: #666;
+  z-index: -1;
+}
+
+.footer-sep {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px;
+}
+
+footer:before {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,1) 100%);
+}
